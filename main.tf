@@ -1,7 +1,7 @@
 provider "aws" {
  // profile = "default"
- access_key = "AKIA6FY5YJAFYYKIXPXK"
- secret_key = "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"
+ access_key = var.access_key
+ secret_key = var.secret_key
   region  = var.region
 }
 
