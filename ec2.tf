@@ -15,5 +15,9 @@ resource "aws_instance" "web" {
 resource "aws_instance" "web-2" {
   ami           = var.ami.amazon
   instance_type = var.instance_type
+  tags = {
+    Name  = "HelloUSA"
+    owner = "friends.com"
+  }
 
 }
