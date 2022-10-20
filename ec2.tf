@@ -21,3 +21,13 @@ resource "aws_instance" "web-2" {
   }
 
 }
+
+### creating ec2 using module ###
+ 
+ module  "vm1" {
+  source = "./modules/"
+
+  monitor = true
+
+   
+ }
