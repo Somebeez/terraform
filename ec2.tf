@@ -12,6 +12,7 @@ resource "aws_instance" "web" {
 }
 
 ### ec2 resource for container #######
+/*
 resource "aws_instance" "web-2" {
   ami           = var.ami.amazon
   instance_type = var.instance_type
@@ -21,14 +22,14 @@ resource "aws_instance" "web-2" {
   }
 
 }
-
+*/
 ### creating ec2 using module ###
- 
+ /*
  module  "vm1" {
   source = "./modules/"
 
   monitor = true
   ec2_name = "yyyyyyyyy"
  }
-
+*/
  
