@@ -7,5 +7,6 @@ resource "aws_instance" "ec2_instance" {
   tags = {
     Terraform   = "true"
     Environment = "dev"
+    Name = var.ec2_name
   }
 }

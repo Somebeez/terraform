@@ -13,4 +13,8 @@ variable "monitor"{
     type = bool
     default = false
 }
+
+variable "ec2_name" {
+  default = "module-vm"
+}
   
