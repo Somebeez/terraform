@@ -28,7 +28,7 @@ resource "aws_instance" "web-2" {
   source = "./modules/"
 
   monitor = true
-  ec2-name = "yyyyyyyyy"
+  ec2_name = "yyyyyyyyy"
  }
 
  
